@@ -12,12 +12,10 @@ body {
 
 .col {
     flex:1;
-    background: rgb(120, 13, 13);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid black;
 }
 
 .col h2 {
@@ -33,6 +31,7 @@ body {
 }
 
 .col button {
+    outline: none;
     border: none;
     background: transparent;
     font-size: 1.5rem;
